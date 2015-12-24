@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfRehabilitation8.WindowSetData"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowSetData" Height="350" Width="525">
+    <Grid x:Name="MyGrid">
+        <Button x:Name="btnAddAngle" Content="AddAngle" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="110" Click="btnAddAngle_Click"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="267,31,0,0" VerticalAlignment="Top" Width="110" Click="btnSave_Click"/>
+        <Button x:Name="btnRemoveAngle" Content="RemoveAngle" HorizontalAlignment="Left" Margin="139,31,0,0" VerticalAlignment="Top" Width="110" Click="btnRemoveAngle_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="397,31,0,0" VerticalAlignment="Top" Width="110" Click="btnReset_Click"/>
+        <TextBox x:Name="txtNameOfPose" Text="Add the name of pose" HorizontalAlignment="Left" Height="23" Margin="10,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Joint1" Height="28" HorizontalAlignment="Left" Margin="10,96,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Joint2" Height="28" HorizontalAlignment="Left" Margin="110,96,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Joint3" Height="28" HorizontalAlignment="Left" Margin="210,96,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="Angle" Height="28" HorizontalAlignment="Left" Margin="310,96,0,0" Name="label4" VerticalAlignment="Top" />
+        <Label Content="Threshold" Height="28" HorizontalAlignment="Left" Margin="410,96,0,0" Name="label5" VerticalAlignment="Top" />
+        <Image HorizontalAlignment="Right" Height="100" Margin="417,220,0,0" VerticalAlignment="Top" Width="100" Source="images/图像 7.jpg"/>
+    </Grid>
+</Window>

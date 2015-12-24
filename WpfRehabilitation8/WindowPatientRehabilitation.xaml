@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfRehabilitation8.WindowPatientRehabilitation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowPatientRehabilitation" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnSetRehabilitationPlan" Content="SetRehabilitationPlan" HorizontalAlignment="Left" Margin="35,52,0,0" VerticalAlignment="Top" Width="145" Click="btnSet_Click"/>
+        <Button x:Name="btnStartRehabilitationPlan" Content="StartRehabilitationPlan" HorizontalAlignment="Left" Margin="201,52,0,0" VerticalAlignment="Top" Width="145" RenderTransformOrigin="-0.176,-0.737" Click="btnStart_Click"/>
+        <Image HorizontalAlignment="Left" Height="320" Margin="351,0,0,0" VerticalAlignment="Top" Width="166" Source="images/图像 7.jpg"/>
+
+    </Grid>
+</Window>
