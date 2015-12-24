@@ -1,1 +1,6 @@
-# rehabilitation
+# Synopsis
+With the gradual increase of social aging, the social demand for community health is gradually increasing. More and more scientific researchers are engaged in the research field of rehabilitation training. The traditional rehabilitation treatment is monotonous and tedious. After the training, patients cannot get timely feedback assessment, which makes the effect of rehabilitation training not ideal. 
+
+Rehabilitation training methods based on computer vision technology develop more and more mature. It has been a major trend to use Microsoft Kinect equipment to carry out rehabilitation training. I mainly study the skeletal tracking technology of Microsoft Kinect equipment and pose recognition algorithm. The software implementation schemes are designed. The sample model of rehabilitation training system is completed. The core function of the system design idea is realized, and the system has the value of further commercialization.
+
+The rehabilitation training based on the Kinect can realize the human-computer interaction by capturing the human bone data and the depth data. Patients can choose a rehabilitation training program made by therapists. Rehabilitation system offers real time training effect tips. After the training, the system will generate training record for users. Rehabilitation patients farewell to the control equipment and dive wholeheartedly into the rehabilitation training. Due to the portability of the equipment, patients can complete the rehabilitation training at home.
